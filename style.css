@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(29, 27, 27);
+    font: normal 30pt monospace;
+    color: white;
+}
+header{
+    margin-top: 250px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+hr{
+    width: 600px;
+}
+section{
+    text-align: center;
+}
+#contador{
+    font: normal 47pt monospace;
+}
+small{
+    font-size: 20pt;
+}
+.inputButton{
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    font: bold 20pt monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    margin-left: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 15pt;
+    font-style: italic;
+    color: rgb(49, 48, 43);
+}
+a{
+    color: rgb(73, 72, 63);
+}

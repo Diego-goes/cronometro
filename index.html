@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CRONÔMETRO</h1>
+    </header>
+    <hr>
+    <section>
+        <p id="contador">00:00<small>.00</small></p>
+        <p id="pOpcoes">
+            <input type="button" onmouseover="mouseOver('iniciarButton')" onmouseleave="mouseLeave('iniciarButton')" value="Iniciar" onclick="iniciar()" class="inputButton" id="iniciarButton">
+            
+        </p>
+    </section>
+    <footer>
+        <p>&copy; Programmed by <a href="https://github.com/Diego-goes" target="_blank">Diego Góes</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
